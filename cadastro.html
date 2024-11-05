@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cad.css">
+    <title>Cadastro DelfinoTech</title>
+</head>
+
+<body>
+    <center>
+        <h1>DELFINOTECH</h1>
+    </center>
+    <hr>
+    <h1>Faça seu Cadastro</h1>
+    <br><br>
+    <form action="cadastro.php" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+        <br><br>
+        <label>Data de Nascimento:</label>
+        <input type="date" name="data" required>
+        <br><br>
+        <label>Função:</label>
+        <input type="text" name="funcao" required>
+        <br><br>
+        <label>Salario:</label>
+        <input type="number" name="salario" required>
+        <br><br>
+        <label>CPF:</label>
+        <input type="text" name="cpf" required>
+        <br><br>
+        <label>Senha:</label>
+        <input type="password" name="senha" required>
+        <br><br>
+        <button type="submit">Realizar Cadastro</button>
+        <a href="index.html">Ja possui conta? Faça o Login</a>
+    </form>
+</body>
+
+</html>
